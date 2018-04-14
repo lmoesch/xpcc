@@ -17,8 +17,8 @@
 		<parameter name="rx_buffer" type="int" min="1" max="65534">16</parameter>
 		<!-- shared Uart interrupt -->
 		<shared_irq device-name="030" device-size-id="c">USART3_6</shared_irq>
-		<shared_irq device-name="070" device-size-id="b">USART3_4</shared_irq>
+		<shared_irq device-name="070|072" device-size-id="b">USART3_4</shared_irq>
 		<shared_irq_ids device-name="030" device-size-id="c">3 4 5 6</shared_irq_ids>
-		<shared_irq_ids device-name="070" device-size-id="b">3 4</shared_irq_ids>
+		<shared_irq_ids device-name="070|072" device-size-id="b">3 4</shared_irq_ids>
 	</driver>
 </rca>
